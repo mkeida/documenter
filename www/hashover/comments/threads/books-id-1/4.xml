@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment>
+	<body>
+		const int minDelkaHesla = 8;
+
+		Hodnota konstanty musí být známá v okamžiku překladu(kompilace) programu. Například
+
+		int i = 5;
+		const int minDelkaHesla = 4 * i;
+
+		vyhodí chybu, protože hodnota na pravé straně přiřazení není v okamžiku kompilace známá.
+	</body>
+	<date>2022-08-25T17:49:17+0200</date>
+	<name>pavel.svec@ssps.cz</name>
+	<password>$2y$10$VEq7UXRmOyoKfzDcwtIx$.Ao4Foz/nm7Ws1HlZB/64mLwFDbY1HB.</password>
+	<login_id>7a9295311726f63ccfe39f1d3c570ec692ddc42e</login_id>
+	<email>uyiGQ1xHiVzk8T7KanGZzi+6azZ3mWvhnp/lc45QshTEk1tArcuJUCbBGkiCRrt1</email>
+	<encryption>4,7,15,27,22,26,5,9,12,15,6,19,13,15,6,15</encryption>
+	<email_hash>f512b52b1d4e1251ee174106a94b974b</email_hash>
+	<notifications>yes</notifications>
+	<likes>2</likes>
+</comment>

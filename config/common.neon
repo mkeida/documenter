@@ -1,0 +1,36 @@
+parameters:
+
+http:
+	frames: true
+
+application:
+	errorPresenter: Error
+	mapping:
+		*: App\*Module\Presenters\*Presenter
+
+session:
+	savePath: "%tempDir%/sessions"
+	expiration: 14 days
+	autoStart: true
+
+database:
+	dsn: 'mysql:host=uvdb50.active24.cz;dbname=200solutgpnskripta'
+	user: 200solutgpnskrip
+	password: ux6jW3GCLK
+	options:
+		lazy: yes
+
+services:
+	- App\Model\UserManager
+	- App\Model\PermissionManager
+	userRepository:
+		class: App\Repositories\UserRepository
+	bookRepository:
+		class: App\Repositories\BookRepository
+	documentRepository:
+		class: App\Repositories\DocumentRepository
+
+di:
+	export:
+		parameters: no
+		tags: no

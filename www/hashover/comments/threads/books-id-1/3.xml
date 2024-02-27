@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment>
+	<body>
+		Jazyk C# je velmi benevolentní a dovoluje například i použití písmen z ruské abecedy nebo jiné cizojazyčné znaky. Že to dovoluje ale neznamená, že byste měli znaky z jiných abeced používat. Pro naše účely bude nejlepší si pamatovat, že háčky, čárky ani jiné exotické znaky do zdrojového souboru nepatří. Jedinou výjimkou z tohoto pravidla jsou obsahy proměnných typu string, ve kterých jsou české znaky přípustné(a žádoucí). Tedy string p = &amp;quot;Zadejte desetinné číslo:&amp;quot; je v pořádku, ale deklarace string příjmení = &amp;quot;Novák&amp;quot; v pořádku není. Přestože kompilátor C# nebude protestovat proti názvu proměnné &amp;quot;příjmení&amp;quot;(s háčkem a čárkami), považuje se mezi programátory použití takového názvu za nepřijatelné a trestuhodné.
+
+		Pokud z nějakého důvodu i tak chceme použít klíčové slovo jako název proměnné, prefixujeme daný název znakem zavináče (@). Například tedy @int nebo @out. Pokud to není nezbytně nutné, nedělejte to a najděte lepší název!
+
+		Tu správu paměti bych vyndal - je zavádějící a raději by se měli později dozvědět o paměti celou pravdu - tedy že alokace a dealokace probíhá jinak na stacku a jinak na heapu.
+
+		Literály
+		Hodnoty, které definujeme ve zdrojovém kódu se nazývají literály. Zde je několik příkladů:
+		bool jeDoma = false;&amp;nbsp; // typ bool může mít hodnoty true nebo false
+		char velkeA = 'A';&amp;nbsp; // jednoduché uvozovky, není totéž, co string velkeA = &amp;quot;A&amp;quot;!!
+		char velkeA = '&amp;#92;u0065';&amp;nbsp; // totéž co předchozí deklarace, tentokrát pomocí kódu znaku v Unicode
+		char tabulator = '&amp;#92;t';
+		char novyRadek = '&amp;#92;n';
+		byte b = 64;
+		int i = 16;
+		int k = 0x10;&amp;nbsp; // celočíselný literál v šestnáctkovém(hexadecimálním) tvaru
+		long velkeCislo = 68000L;&amp;nbsp; 
+		int velkeCislo = 68000L;&amp;nbsp; // vyhodí chybu, přestože hodnota je v rozsahu povoleném pro int, znak L vynutí větší alokovanou paměť
+		double polomer = 2.5;&amp;nbsp; // když je to bez písmene, považuje se hodnota 2.5 za double
+		decimal polomer = 2.5m;&amp;nbsp; // když chceme zvýšenou přesnost, používáme typ decimal. Deklarace decimal polomer = 2.5 vyhodí chybu - viz implicitní konverze v další kapitole
+		float polomer = 2.5f;&amp;nbsp; // i v tomto případě float polomer = 2.5 vyhodí chybu - viz implicitní konverze v další kapitole
+		double vzdalenostMesice = 384.4e6; // == 384.4 * 10&lt;sup&gt;6&lt;/sup&gt;
+		double deformace = 1.3e-3; // == 1.3 * 10&lt;sup&gt;-3&lt;/sup&gt;
+		string cesta = &amp;quot;C:&amp;#92;&amp;#92;Windows&amp;#92;&amp;#92;Notepad.exe&amp;quot;;
+		string cesta = @&amp;quot;C:&amp;#92;Windows&amp;#92;Notepad.exe&amp;quot;;
+		string nazor = &amp;quot;Nejlepší skladbou Jimmiho Hedrixe je &amp;#92;&amp;quot;Hey Joe&amp;#92;&amp;quot;&amp;quot;;
+	</body>
+	<date>2022-08-25T17:45:41+0200</date>
+	<name>pavel.svec@ssps.cz</name>
+	<password>$2y$10$SVGtfHxDwvZs9KliRmb4$.7Kiyj9U6lMM3ZJK8sVWVkfpOfjwE5.W</password>
+	<login_id>7a9295311726f63ccfe39f1d3c570ec692ddc42e</login_id>
+	<email>fw4vAbAPt3OHlI0+pr50O9lhQXKdu1zt+l/NTDwvgix56xBmhvxLJc6BUQfU1RDl</email>
+	<encryption>22,5,6,9,1,1,4,26,5,15,19,22,4,0,1,26</encryption>
+	<email_hash>f512b52b1d4e1251ee174106a94b974b</email_hash>
+	<notifications>yes</notifications>
+	<likes>3</likes>
+	<dislikes>1</dislikes>
+</comment>

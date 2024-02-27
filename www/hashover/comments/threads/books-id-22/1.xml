@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment>
+	<body>
+		Zde jde prostor pro komentáře!
+	</body>
+	<date>2022-06-04T16:17:04+0200</date>
+	<name>admin</name>
+	<password>$2y$10$Go2wCgcRrl9/eNAfVS5u$.l7Vy8j4/2CZVWAZOxlBCkizw5tI7rh6</password>
+	<login_id>f1ef6e9b33a8df1ef28208ea8da4d8683ff522c5</login_id>
+	<email>tlSv/LAYzWbF0sKhgoL0LSgAqRt1Zid4yBlSO9u1E7iHeAbgAVUCFV1d4U2LhZsD</email>
+	<encryption>5,4,5,1,15,21,2,5,7,5,26,12,4,4,7,6</encryption>
+	<email_hash>2ebaa95c05263913c115c0413d47b461</email_hash>
+	<notifications>yes</notifications>
+</comment>

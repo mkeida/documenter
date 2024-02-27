@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment>
+	<body>
+		Složené závorky definují blok kódu a zároveň obor platnosti proměnných:
+
+		{
+		&amp;nbsp; int i = 1;
+		&amp;nbsp; int i = 2;
+		}
+
+		V tomto případě kompilátor vyhodí chybu, protože v jednom bloku nemohou být deklarované dvě proměnné stejného jména.
+
+		{ // blok A
+		&amp;nbsp; int i = 1;
+		}
+		{ // blok B
+		&amp;nbsp; int i = 2;
+		}
+
+		Tento kód je v pořádku. První proměnná i má rozsah platnosti v bloku A a když program opustí blok A, proměnná i, která je v něm definovaná, zanikne. Další proměnná i má rozsah platnosti v bloku B a není tedy v konfliktu s první proměnnou i z bloku A.
+
+		Závorky nejsou jen oddělovače a matoucí smetí!
+	</body>
+	<date>2022-08-30T23:40:57+0200</date>
+	<name>pavel.svec@ssps.cz</name>
+	<password>$2y$10$VEq7UXRmOyoKfzDcwtIx$.Ao4Foz/nm7Ws1HlZB/64mLwFDbY1HB.</password>
+	<login_id>7a9295311726f63ccfe39f1d3c570ec692ddc42e</login_id>
+	<email>0iXJMAdDnzZKmL5DrZM33RsC92AurNeiWQ86DUKJyq1vFEPifzQ6jePVCBERl/xP</email>
+	<encryption>21,9,7,2,13,4,5,15,6,12,26,13,9,1,21,27</encryption>
+	<email_hash>f512b52b1d4e1251ee174106a94b974b</email_hash>
+	<notifications>yes</notifications>
+	<likes>1</likes>
+</comment>

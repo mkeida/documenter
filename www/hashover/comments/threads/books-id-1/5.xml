@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment>
+	<body>
+		Použití datových typů
+
+		Vhodná volba datového typu je zásadní pro funkci i čitelnost programu. Datový typ vyplývá z charakteru ukládaných informací a musí je co nejlépe vystihovat. Například:
+
+		Proměnná pocatecniPismeno musí mít typ char a nemůže mít typ string(ten je vyhrazen pro text a počáteční písmeno je JEDNO písmeno, ne text.
+
+		Proměnná polomer definuje vzdálenost bodů kružnice od středu, což je fyzikální veličina, která může nabývat desetinných hodnot, například 2.35 centimetru. Musí tedy mít desetinný typ (double, float nebo decimal - podle požadavků na rychlost nebo přesnost) a nemůže být byte, int nebo long. Totéž se týká času, rychlosti, zrychlení, teploty, tepelné kapacity, proudu, napětí, atd.
+
+		Proměnná nadpis musí být typu string a nemůže být typu char - jedná se o více písmen za sebou.
+
+		Proměnná pocetClenuDomacnosti nemůže být jiný než byte nebo int, nikdy desetinný typ. Lidé nejsou ve zlomcích, stejně tak počet čísel, které jsou větší než 2.5. Ani ta nemůžeme vyjádřit jinak, než celočíselným typem(byte, int, long, uint, ...).
+	</body>
+	<date>2022-08-30T23:24:26+0200</date>
+	<name>pavel.svec@ssps.cz</name>
+	<password>$2y$10$VEq7UXRmOyoKfzDcwtIx$.Ao4Foz/nm7Ws1HlZB/64mLwFDbY1HB.</password>
+	<login_id>7a9295311726f63ccfe39f1d3c570ec692ddc42e</login_id>
+	<email>IsXYQi+QgtXVhKGfpF7rk72297PiCkfMnrHBtk9M8owT+zuno/viBvPpRo/t1OSL</email>
+	<encryption>0,21,15,27,13,21,2,13,1,15,19,2,5,12,2,5</encryption>
+	<email_hash>f512b52b1d4e1251ee174106a94b974b</email_hash>
+	<notifications>yes</notifications>
+	<likes>1</likes>
+</comment>

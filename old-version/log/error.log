@@ -1,0 +1,6 @@
+[2022-05-06 13-02-45] PHP Notice: Trying to access array offset on value of type null in /var/www/webs/skripta.ssps.cz/public_html/vendor/tracy/tracy/src/Tracy/Debugger/Debugger.php:262  @  http://skripta.ssps.cz/ 
+[2022-05-06 13-11-18] PHP Deprecated: Cannot use "parent" when current class scope has no parent in /var/www/webs/skripta.ssps.cz/public_html/vendor/nette/finder/src/Utils/Finder.php:372  @  http://skripta.ssps.cz/ 
+[2022-05-06 13-11-19] PHP Deprecated: Cannot use "parent" when current class scope has no parent in /var/www/webs/skripta.ssps.cz/public_html/vendor/nette/finder/src/Utils/Finder.php:372  @  http://skripta.ssps.cz/ 
+[2022-05-06 13-17-02] PHP Deprecated: Cannot use "parent" when current class scope has no parent in /var/www/webs/skripta.ssps.cz/public_html/vendor/nette/finder/src/Utils/Finder.php:372  @  http://skripta.ssps.cz/ 
+[2022-05-06 13-23-28] PHP Deprecated: Cannot use "parent" when current class scope has no parent in /var/www/webs/skripta.ssps.cz/public_html/vendor/nette/finder/src/Utils/Finder.php:372  @  http://skripta.ssps.cz/ 
+[2022-05-06 13-23-55] PHP Deprecated: Cannot use "parent" when current class scope has no parent in /var/www/webs/skripta.ssps.cz/public_html/vendor/nette/finder/src/Utils/Finder.php:372  @  http://skripta.ssps.cz/ 
